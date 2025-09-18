@@ -1,40 +1,41 @@
-# API de Transações e Estatísticas🤙
+# Transactions and Statistics API🤙
 
-API REST desenvolvida em Ruby on Rails. Processa transações financeiras e calcula estatísticas em tempo real.
+REST API developed in Ruby on Rails. Processes financial transactions and calculates real-time statistics.
 
-### Funcionalidades
+### Features
 
-- `POST /transacao` - Recebe transações financeiras com validações
-- `DELETE /transacao` - Remove todas as transações armazenadas
-- `GET /estatistica` - Retorna estatísticas das transações dos últimos 60 segundos
+- `POST /transacao` - Receives financial transactions with validations
+- `DELETE /transacao` - Receives financial transactions with validations
+- `GET /estatistica` - Returns statistics for transactions from the last 60 seconds
 
 ### Requisitos Atendidos
 
--  API REST com endpoints exatos especificados
--  Armazenamento em memória (sem banco de dados)
--  Validações rigorosas das transações
--  Respostas HTTP conforme especificado
--  Formato JSON estrito
--  Múltiplos commits mostrando evolução
--  Testes automatizados com RSpec
+-  REST API with exact endpoints as specified
+-  In-memory storage (no database)
+-  Rigorous transaction validations
+-  HTTP responses as specified
+-  Strict JSON format
+-  Multiple commits showing evolution
+-  Automated tests with RSpec
 
-### Tecnologias Utilizadas
+### Technologies Used
 
 - **Ruby** 3.4.5
 - **Ruby on Rails** 8.0.2.1
-- **RSpec** - Testes automatizados
-- **Rack CORS** - Controle de acesso
-- **Puma** - Servidor web
+- **RSpec** - Automated testing
+- **Rack CORS** - Access control
+- **Puma** - Web server
 
-### Instalação e Execução
+### Installation and Execution
 
-#### Pré-requisitos
-- Ruby 3.1.2 ou superior
+#### Prerequisites
+- Ruby 3.1.2 or higher
 - Bundler gem
 
-#### Passo a passo
+#### Step by step
 
-1. **Clone o repositório**
+1. **Clone the repository
 ```bash
-git clone https://github.com/seu-usuario/transacoes-api.git
-cd transacoes-api```
+git clone https://github.com/sheranrafael/transacoes-api.git
+cd transacoes-api
+```
