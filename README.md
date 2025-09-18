@@ -1,6 +1,6 @@
 # Transactions and Statistics API🤙
 
-REST API developed in Ruby on Rails. Processes financial transactions and calculates real-time statistics.
+A REST API developed in Ruby on Rails based on Itaú selection process challenge. Processes financial transactions and calculates real-time statistics.
 
 ### Features
 
