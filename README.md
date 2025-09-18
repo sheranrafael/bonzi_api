@@ -8,7 +8,7 @@ A REST API developed in Ruby on Rails based on Itaú selection process challenge
 - `DELETE /transacao` - Receives financial transactions with validations
 - `GET /estatistica` - Returns statistics for transactions from the last 60 seconds
 
-### Requisitos Atendidos
+### Requirements Met
 
 -  REST API with exact endpoints as specified
 -  In-memory storage (no database)
