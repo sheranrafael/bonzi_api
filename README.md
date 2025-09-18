@@ -5,7 +5,7 @@ A REST API developed in Ruby on Rails based on Itaú selection process challenge
 ### Features
 
 - `POST /transacao` - Receives financial transactions with validations
-- `DELETE /transacao` - Receives financial transactions with validations
+- `DELETE /transacao` - Removes all stored transactions
 - `GET /estatistica` - Returns statistics for transactions from the last 60 seconds
 
 ### Requirements Met
